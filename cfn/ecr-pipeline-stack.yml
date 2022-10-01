@@ -85,7 +85,7 @@ Resources:
           - Name: REPOSITORY_URI
             Value: !Sub ${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/${RepositoryName}
           - Name: IMAGE_TAG
-            Value: !Ref GitHubBranch
+            Value: latest
           - Name: IMAGE_REPO_NAME
             Value: !Ref RepositoryName
       Name: !Sub ${RepositoryName}-codebuildproject

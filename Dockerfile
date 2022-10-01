@@ -5,7 +5,7 @@ RUN yum update -y &&\
     yum install -y tar zip gzip httpd &&\
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash &&\
     . ~/.nvm/nvm.sh &&\
-    nvm install node &&\
+    nvm install v14.1 &&\
     npm install &&\
     npm run webpack &&\
     cp -a index.html data.js assets build /var/www/html/
