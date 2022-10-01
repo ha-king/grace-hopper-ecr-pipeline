@@ -4,8 +4,8 @@ var data = [
     "questions": [
       {
         "points": 100,
-        "question": "It's easier to ask forgiveness than it is _______________",
-        "answer": "Ask Permission..."
+        "question": "It's easier to ask forgiveness than it is to _______________",
+        "answer": "Ask Permission"
       },
       {
         "points": 200,
@@ -79,7 +79,7 @@ var data = [
     "questions": [
       {
         "points": 100,
-        "question": "What city is hosting GHC 2019?",
+        "question": "What city is hosting GHC 2022?",
         "answer": "Orlando, FL"
       },
       {
